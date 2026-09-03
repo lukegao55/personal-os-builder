@@ -1,0 +1,6 @@
+interface:
+  display_name: "Personal OS Builder"
+  short_description: "Turn durable personal context into agent-ready Markdown"
+  default_prompt: "Use $personal-os-builder to start from zero context and guide me through a complete, AI-use-case-independent life interview for my Personal OS."
+policy:
+  allow_implicit_invocation: true
