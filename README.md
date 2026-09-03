@@ -9,7 +9,7 @@ Personal OS Builder 是一个面向 Codex 的完整人生访谈 Skill。它从�
 在 Codex 中发送：
 
 ```text
-$skill-installer 请从 https://github.com/lukegao55/personal-os-builder/tree/v1.0.0/skills/personal-os-builder 安装这个 Skill
+$skill-installer 请使用 git 方法从 https://github.com/lukegao55/personal-os-builder/tree/v1.0.1/skills/personal-os-builder 安装这个 Skill
 ```
 
 安装完成后的下一条消息发送：
@@ -19,6 +19,8 @@ $personal-os-builder 请开始建立我的 Personal OS
 ```
 
 如果安装后没有立即出现，请重新启动 Codex，再发送启动指令。
+
+这里明确指定 `git` 方法，是为了避开部分 macOS Python 环境可能出现的本地 CA 证书问题。
 
 ## 199 元完整调教服务
 
